@@ -41,35 +41,114 @@ namespace HorrventuresEconomy
 			}
 		}
 		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int alchemy = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int jewelry = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int library = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int palace = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int smith = 2130837508;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int cancel = 2131034114;
+			// aapt resource value: 0x7f06000d
+			public const int alchemy = 2131099661;
 			
-			// aapt resource value: 0x7f050004
-			public const int currency = 2131034116;
+			// aapt resource value: 0x7f06000e
+			public const int alchemyImage = 2131099662;
 			
-			// aapt resource value: 0x7f050003
-			public const int currencyLayout = 2131034115;
+			// aapt resource value: 0x7f06000f
+			public const int alchemyLevel = 2131099663;
 			
-			// aapt resource value: 0x7f050005
-			public const int getMoney = 2131034117;
+			// aapt resource value: 0x7f060002
+			public const int cancel = 2131099650;
 			
-			// aapt resource value: 0x7f050007
-			public const int incomeLayout = 2131034119;
+			// aapt resource value: 0x7f060007
+			public const int cityLayout = 2131099655;
 			
-			// aapt resource value: 0x7f050008
-			public const int incomeRate = 2131034120;
+			// aapt resource value: 0x7f060008
+			public const int cityState = 2131099656;
 			
-			// aapt resource value: 0x7f050000
-			public const int moneyInput = 2131034112;
+			// aapt resource value: 0x7f060004
+			public const int currency = 2131099652;
 			
-			// aapt resource value: 0x7f050006
-			public const int refreshMoney = 2131034118;
+			// aapt resource value: 0x7f060003
+			public const int currencyLayout = 2131099651;
 			
-			// aapt resource value: 0x7f050001
-			public const int submit = 2131034113;
+			// aapt resource value: 0x7f060009
+			public const int firstRowLayout = 2131099657;
+			
+			// aapt resource value: 0x7f060005
+			public const int getMoney = 2131099653;
+			
+			// aapt resource value: 0x7f06000a
+			public const int jewelry = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int jewelryImage = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int jewelryLevel = 2131099660;
+			
+			// aapt resource value: 0x7f060017
+			public const int library = 2131099671;
+			
+			// aapt resource value: 0x7f060018
+			public const int libraryImage = 2131099672;
+			
+			// aapt resource value: 0x7f060019
+			public const int libraryLevel = 2131099673;
+			
+			// aapt resource value: 0x7f060000
+			public const int moneyInput = 2131099648;
+			
+			// aapt resource value: 0x7f060014
+			public const int palace = 2131099668;
+			
+			// aapt resource value: 0x7f060015
+			public const int palaceImage = 2131099669;
+			
+			// aapt resource value: 0x7f060016
+			public const int palaceLevel = 2131099670;
+			
+			// aapt resource value: 0x7f060006
+			public const int refreshMoney = 2131099654;
+			
+			// aapt resource value: 0x7f060010
+			public const int secondRowLayout = 2131099664;
+			
+			// aapt resource value: 0x7f060011
+			public const int smith = 2131099665;
+			
+			// aapt resource value: 0x7f060012
+			public const int smithImage = 2131099666;
+			
+			// aapt resource value: 0x7f060013
+			public const int smithLevel = 2131099667;
+			
+			// aapt resource value: 0x7f060001
+			public const int submit = 2131099649;
 			
 			static Id()
 			{
@@ -84,11 +163,11 @@ namespace HorrventuresEconomy
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int GetMoney = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int GetMoney = 2130968576;
 			
-			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			// aapt resource value: 0x7f040001
+			public const int Main = 2130968577;
 			
 			static Layout()
 			{
@@ -103,8 +182,8 @@ namespace HorrventuresEconomy
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			// aapt resource value: 0x7f030000
+			public const int Icon = 2130903040;
 			
 			static Mipmap()
 			{
@@ -119,11 +198,11 @@ namespace HorrventuresEconomy
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int app_name = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int hello = 2131034112;
 			
 			static String()
 			{

@@ -50,30 +50,6 @@ namespace HorrventuresEconomy
             return Currency;
         }
 
-        public int GetIncomeRate()
-        {
-            if (deviceList.Count > 10)
-            {
-                return 5;
-            }
-            else if (deviceList.Count > 8)
-            {
-                return 4;
-            }
-            else if (deviceList.Count > 6)
-            {
-                return 3;
-            }
-            else if (deviceList.Count > 4)
-            {
-                return 2;
-            }
-            else
-            {
-                return 1;
-            }
-        }
-
         public void RefreshCurrency()
         {
             Currency = 0;

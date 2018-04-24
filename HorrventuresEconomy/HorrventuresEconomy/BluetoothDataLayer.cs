@@ -36,7 +36,7 @@ namespace HorrventuresEconomy
 
             adapter.DeviceDiscovered += (s, a) =>
             {
-                if (a.Device.Name.Contains("Beacon"))
+                if (a.Device.Name!=null && a.Device.Name.Contains("Beacon"))
                 {
                     if (deviceList.Exists(d => d.id == a.Device.Id))
                     {
