@@ -5,6 +5,7 @@ using Android.Content;
 using System.Timers;
 using System;
 using Android.Graphics;
+using Android.Views;
 
 namespace HorrventuresEconomy
 {
@@ -114,12 +115,66 @@ namespace HorrventuresEconomy
 
         private void OnGetMoney(object sender, EventArgs e)
         {
-            var intent = new Intent(this, typeof(GetMoneyActivity));
+            LayoutInflater myInflater = LayoutInflater.From(this);
+            View password = myInflater.Inflate(Resource.Layout.InsertPassword, null);
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetView(password);
 
-            StartActivityForResult(intent, 100);
+            var userInput = password.FindViewById<EditText>(Resource.Id.passwordInput);
+            alert.SetCancelable(false)
+            .SetPositiveButton("Ok", delegate
+            {
+                if (userInput.Text == "1406")
+                {
+                    var intent = new Intent(this, typeof(GetMoneyActivity));
+                    StartActivityForResult(intent, 100);
+                }
+                else
+                {
+                    Toast.MakeText(this, "Неправильный пароль", ToastLength.Short).Show();
+                    alert.Dispose();
+                }
+            })
+            .SetNegativeButton("Отмена", delegate
+            {
+                alert.Dispose();
+            });
+
+            Dialog dialog = alert.Create();
+            dialog.Show();
         }
 
         private void OnRefreshMoney(object sender, EventArgs e)
+        {
+            LayoutInflater myInflater = LayoutInflater.From(this);
+            View password = myInflater.Inflate(Resource.Layout.InsertPassword, null);
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetView(password);
+
+            var userInput = password.FindViewById<EditText>(Resource.Id.passwordInput);
+            alert.SetCancelable(false)
+            .SetPositiveButton("Ok", delegate
+            {
+                if (userInput.Text == "1406")
+                {
+                    RefreshMoney();
+                }
+                else
+                {
+                    Toast.MakeText(this, "Неправильный пароль", ToastLength.Short).Show();
+                    alert.Dispose();
+                }
+            })
+            .SetNegativeButton("Отмена", delegate
+            {
+                alert.Dispose();
+            });
+
+            Dialog dialog = alert.Create();
+            dialog.Show();
+        }
+
+        private void RefreshMoney()
         {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.SetTitle("Подтвердите обнуление");

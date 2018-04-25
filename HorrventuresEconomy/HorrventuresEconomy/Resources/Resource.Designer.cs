@@ -72,80 +72,86 @@ namespace HorrventuresEconomy
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06000d
-			public const int alchemy = 2131099661;
-			
-			// aapt resource value: 0x7f06000e
-			public const int alchemyImage = 2131099662;
-			
 			// aapt resource value: 0x7f06000f
-			public const int alchemyLevel = 2131099663;
+			public const int alchemy = 2131099663;
+			
+			// aapt resource value: 0x7f060010
+			public const int alchemyImage = 2131099664;
+			
+			// aapt resource value: 0x7f060011
+			public const int alchemyLevel = 2131099665;
 			
 			// aapt resource value: 0x7f060002
 			public const int cancel = 2131099650;
 			
-			// aapt resource value: 0x7f060007
-			public const int cityLayout = 2131099655;
-			
-			// aapt resource value: 0x7f060008
-			public const int cityState = 2131099656;
-			
-			// aapt resource value: 0x7f060004
-			public const int currency = 2131099652;
-			
-			// aapt resource value: 0x7f060003
-			public const int currencyLayout = 2131099651;
-			
 			// aapt resource value: 0x7f060009
-			public const int firstRowLayout = 2131099657;
-			
-			// aapt resource value: 0x7f060005
-			public const int getMoney = 2131099653;
+			public const int cityLayout = 2131099657;
 			
 			// aapt resource value: 0x7f06000a
-			public const int jewelry = 2131099658;
+			public const int cityState = 2131099658;
+			
+			// aapt resource value: 0x7f060006
+			public const int currency = 2131099654;
+			
+			// aapt resource value: 0x7f060005
+			public const int currencyLayout = 2131099653;
 			
 			// aapt resource value: 0x7f06000b
-			public const int jewelryImage = 2131099659;
+			public const int firstRowLayout = 2131099659;
+			
+			// aapt resource value: 0x7f060007
+			public const int getMoney = 2131099655;
 			
 			// aapt resource value: 0x7f06000c
-			public const int jewelryLevel = 2131099660;
+			public const int jewelry = 2131099660;
 			
-			// aapt resource value: 0x7f060017
-			public const int library = 2131099671;
+			// aapt resource value: 0x7f06000d
+			public const int jewelryImage = 2131099661;
 			
-			// aapt resource value: 0x7f060018
-			public const int libraryImage = 2131099672;
+			// aapt resource value: 0x7f06000e
+			public const int jewelryLevel = 2131099662;
+			
+			// aapt resource value: 0x7f060003
+			public const int label = 2131099651;
 			
 			// aapt resource value: 0x7f060019
-			public const int libraryLevel = 2131099673;
+			public const int library = 2131099673;
+			
+			// aapt resource value: 0x7f06001a
+			public const int libraryImage = 2131099674;
+			
+			// aapt resource value: 0x7f06001b
+			public const int libraryLevel = 2131099675;
 			
 			// aapt resource value: 0x7f060000
 			public const int moneyInput = 2131099648;
 			
-			// aapt resource value: 0x7f060014
-			public const int palace = 2131099668;
-			
-			// aapt resource value: 0x7f060015
-			public const int palaceImage = 2131099669;
-			
 			// aapt resource value: 0x7f060016
-			public const int palaceLevel = 2131099670;
+			public const int palace = 2131099670;
 			
-			// aapt resource value: 0x7f060006
-			public const int refreshMoney = 2131099654;
+			// aapt resource value: 0x7f060017
+			public const int palaceImage = 2131099671;
 			
-			// aapt resource value: 0x7f060010
-			public const int secondRowLayout = 2131099664;
+			// aapt resource value: 0x7f060018
+			public const int palaceLevel = 2131099672;
 			
-			// aapt resource value: 0x7f060011
-			public const int smith = 2131099665;
+			// aapt resource value: 0x7f060004
+			public const int passwordInput = 2131099652;
+			
+			// aapt resource value: 0x7f060008
+			public const int refreshMoney = 2131099656;
 			
 			// aapt resource value: 0x7f060012
-			public const int smithImage = 2131099666;
+			public const int secondRowLayout = 2131099666;
 			
 			// aapt resource value: 0x7f060013
-			public const int smithLevel = 2131099667;
+			public const int smith = 2131099667;
+			
+			// aapt resource value: 0x7f060014
+			public const int smithImage = 2131099668;
+			
+			// aapt resource value: 0x7f060015
+			public const int smithLevel = 2131099669;
 			
 			// aapt resource value: 0x7f060001
 			public const int submit = 2131099649;
@@ -167,7 +173,10 @@ namespace HorrventuresEconomy
 			public const int GetMoney = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int Main = 2130968577;
+			public const int InsertPassword = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int Main = 2130968578;
 			
 			static Layout()
 			{
